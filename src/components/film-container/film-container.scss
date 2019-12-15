@@ -1,0 +1,24 @@
+
+.films-list {
+    background-color: #232323;
+    color: #BDBDBD;
+    display: inline-flex;
+  
+    &__result-counter {
+      height: 70px;
+      background-color: #555555;
+      padding-left: 200px;
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      color: #fff;
+    }
+  
+    &__search-result {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 70px;
+      min-height: 400px;
+    }
+  }

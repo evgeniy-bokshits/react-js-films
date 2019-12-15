@@ -1,0 +1,1 @@
+export {default as FilmItem} from './film-item.container';

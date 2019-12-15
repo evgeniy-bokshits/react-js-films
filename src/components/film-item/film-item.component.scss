@@ -1,0 +1,19 @@
+.film {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin: 10px;
+
+    &__img img {
+        width: 300px;
+        cursor: pointer;
+    }
+
+    &__title {
+        cursor: pointer;
+    }
+
+    &__release {
+        padding: 5px 0;
+    }
+}
